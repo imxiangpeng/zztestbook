@@ -1,7 +1,5 @@
 # Chapter 1
 
-Thu Apr 18 23:13:26 CEST 2019
-
 This is some default content for a new Leanpub book.
 
 You can download the manuscript folder containing the plain text files from which this book is generated. That way, you can see how everything in this book is actually written.
