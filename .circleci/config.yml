@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  leanpub: zzamboni/leanpub@dev:alpha
+  leanpub: zzamboni/leanpub@0.2.3
 
 # This tag-based book building workflow dispatches to the correct job
 # depending on tagging
