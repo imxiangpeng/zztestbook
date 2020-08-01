@@ -2,6 +2,8 @@
 
 This is some default content for a new Leanpub book.
 
+For example, suppose you wanted to run a periodic task using [`hs.timer.doAfter`](https://www.hammerspoon.org/docs/hs.timer#doAfter), you might write something like this:
+
 You can download the manuscript folder containing the plain text files from which this book is generated. That way, you can see how everything in this book is actually written.
 
 Here is the download link for a zip file with the manuscript of this book: [https://github.com/leanpub/default-new-book-content/archive/master.zip](https://github.com/leanpub/default-new-book-content/archive/master.zip).
