@@ -13,3 +13,13 @@ Please note you can find our manual here: [https://leanpub.com/help/manual](http
 We also have a author Help Center here: [http://help.leanpub.com/author-help](http://help.leanpub.com/author-help).
 
 In the following chapters you'll see some simple examples of how to format your writing and how to insert images.
+
+Some math:
+
+```$
+\begin{align*}
+\textrm{AV} &= \$150,000 \\
+\textrm{EF} &= 30\% \\
+\textrm{SLE} &= \$150,000 \times 30\% = \mathbf{\$45,000}
+\end{align*}
+```
