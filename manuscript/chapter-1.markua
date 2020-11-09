@@ -47,4 +47,24 @@ Aside
 Center
 {/blurb}
 
+```
+Example
+```
+
+{blurb, class: "exercise"}
+Exercise
+{/blurb}
+
+{quiz}
+Quiz
+{/quiz}
+
+{blurb, class: "question"}
+Question
+{/blurb}
+
+{blurb}
+Foobar
+{/blurb}
+
 

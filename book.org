@@ -46,6 +46,21 @@ Aside
 #+begin_center
 Center
 #+end_center
+#+begin_example
+Example
+#+end_example
+#+begin_exercise
+Exercise
+#+end_exercise
+#+begin_quiz
+Quiz
+#+end_quiz
+#+begin_question
+Question
+#+end_question
+#+begin_foobar
+Foobar
+#+end_foobar
 * Chapter 2
   :PROPERTIES:
   :CUSTOM_ID: chapter-2
