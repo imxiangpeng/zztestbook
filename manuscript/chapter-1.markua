@@ -13,4 +13,40 @@ We also have a author Help Center here: <http://help.leanpub.com/author-help>.
 
 In the following chapters you'll see some simple examples of how to format your writing and how to insert images. 
 
+Blocks: 
+
+{blurb, class: "information"}
+Note
+{/blurb}
+
+{blurb, class: "information"}
+Information
+{/blurb}
+
+{blurb, class: "tip"}
+Tip
+{/blurb}
+
+{blurb, class: "warning"}
+Warning
+{/blurb}
+
+{blurb, class: "discussion"}
+Discussion
+{/blurb}
+
+{blurb, class: "error"}
+Error
+{/blurb}
+
+{aside}
+Aside
+{/aside}
+
+<div class="org-center">
+<p>
+Center
+</p>
+</div>
+
 

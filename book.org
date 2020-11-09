@@ -20,6 +20,32 @@ We also have a author Help Center here: [[http://help.leanpub.com/author-help]].
 
 In the following chapters you'll see some simple examples of how to format your writing and how to insert images.
 
+Blocks:
+
+#+begin_note
+Note
+#+end_note
+#+begin_information
+Information
+#+end_information
+#+begin_tip
+Tip
+#+end_tip
+#+begin_warning
+Warning
+#+end_warning
+#+begin_discussion
+Discussion
+#+end_discussion
+#+begin_error
+Error
+#+end_error
+#+begin_aside
+Aside
+#+end_aside
+#+begin_center
+Center
+#+end_center
 * Chapter 2
   :PROPERTIES:
   :CUSTOM_ID: chapter-2
