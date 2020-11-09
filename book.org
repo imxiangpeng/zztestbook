@@ -1,3 +1,4 @@
+#+macro: blocksamples (eval (mapconcat (lambda (f) (format "#+begin_%s\n%s block, produced by =#+begin_%s= / =#+end_%s=\n#+end_%s" f f f f f)) (s-split-words "quote aside blurb center discussion error exercise information note question tip warning") "\n"))
 #+TITLE: Test Book
 #+author: Diego Zamboni
 #+email: diego@zzamboni.org
@@ -22,40 +23,8 @@ In the following chapters you'll see some simple examples of how to format your 
 
 Blocks:
 
-#+begin_note
-| Note block                |
-| =#+begin_note= / =#+end_note= |
-#+end_note
-#+begin_information
-Information
-#+end_information
-#+begin_tip
-Tip
-#+end_tip
-#+begin_warning
-Warning
-#+end_warning
-#+begin_discussion
-Discussion
-#+end_discussion
-#+begin_error
-Error
-#+end_error
-#+begin_aside
-Aside
-#+end_aside
-#+begin_center
-Center
-#+end_center
-#+begin_example
-Example
-#+end_example
-#+begin_exercise
-Exercise
-#+end_exercise
-#+begin_question
-Question
-#+end_question
+{{{blocksamples}}}
+
 * Chapter 2
   :PROPERTIES:
   :CUSTOM_ID: chapter-2

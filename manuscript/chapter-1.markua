@@ -15,49 +15,52 @@ In the following chapters you'll see some simple examples of how to format your 
 
 Blocks: 
 
-{blurb, class: "information"}
-| Note block                    |
-| `#+begin_note` / `#+end_note` |
+{blockquote}
+quote block, produced by `#+begin_quote` / `#+end_quote`
+{/blockquote}
+
+{aside}
+aside block, produced by `#+begin_aside` / `#+end_aside`
+{/aside}
+
+{blurb}
+blurb block, produced by `#+begin_blurb` / `#+end_blurb`
 {/blurb}
 
-{blurb, class: "information"}
-Information
-{/blurb}
-
-{blurb, class: "tip"}
-Tip
-{/blurb}
-
-{blurb, class: "warning"}
-Warning
+{blurb, class: "center"}
+center block, produced by `#+begin_center` / `#+end_center`
 {/blurb}
 
 {blurb, class: "discussion"}
-Discussion
+discussion block, produced by `#+begin_discussion` / `#+end_discussion`
 {/blurb}
 
 {blurb, class: "error"}
-Error
+error block, produced by `#+begin_error` / `#+end_error`
 {/blurb}
-
-{aside}
-Aside
-{/aside}
-
-{blurb, class: "center"}
-Center
-{/blurb}
-
-```
-Example
-```
 
 {blurb, class: "exercise"}
-Exercise
+exercise block, produced by `#+begin_exercise` / `#+end_exercise`
+{/blurb}
+
+{blurb, class: "information"}
+information block, produced by `#+begin_information` / `#+end_information`
+{/blurb}
+
+{blurb, class: "information"}
+note block, produced by `#+begin_note` / `#+end_note`
 {/blurb}
 
 {blurb, class: "question"}
-Question
+question block, produced by `#+begin_question` / `#+end_question`
+{/blurb}
+
+{blurb, class: "tip"}
+tip block, produced by `#+begin_tip` / `#+end_tip`
+{/blurb}
+
+{blurb, class: "warning"}
+warning block, produced by `#+begin_warning` / `#+end_warning`
 {/blurb}
 
 
