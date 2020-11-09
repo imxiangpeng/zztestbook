@@ -24,6 +24,7 @@ Blocks:
 
 #+begin_note
 | This is a Note block | =#+begin_note ... #+end_note= |
+|----------------------+-----------------------------|
 #+end_note
 #+begin_information
 Information
