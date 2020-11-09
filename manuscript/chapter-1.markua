@@ -16,7 +16,9 @@ In the following chapters you'll see some simple examples of how to format your 
 Blocks: 
 
 {blurb, class: "information"}
-Note
+|                     |                              |
+|-------------------- |----------------------------- |
+| This is a Note block | `#+begin_note ... #+end_note` |
 {/blurb}
 
 {blurb, class: "information"}
@@ -54,10 +56,6 @@ Example
 {blurb, class: "exercise"}
 Exercise
 {/blurb}
-
-{quiz}
-Quiz
-{/quiz}
 
 {blurb, class: "question"}
 Question

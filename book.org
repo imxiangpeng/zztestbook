@@ -23,7 +23,7 @@ In the following chapters you'll see some simple examples of how to format your 
 Blocks:
 
 #+begin_note
-Note
+| This is a Note block | =#+begin_note ... #+end_note= |
 #+end_note
 #+begin_information
 Information
@@ -52,9 +52,6 @@ Example
 #+begin_exercise
 Exercise
 #+end_exercise
-#+begin_quiz
-Quiz
-#+end_quiz
 #+begin_question
 Question
 #+end_question
