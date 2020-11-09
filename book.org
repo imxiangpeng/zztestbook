@@ -1,4 +1,4 @@
-#+macro: blocksamples (eval (mapconcat (lambda (f) (format "#+begin_%s\n%s block, produced by =#+begin_%s= / =#+end_%s=\n#+end_%s" f f f f f)) (s-split-words "quote aside blurb center discussion error exercise information note question tip warning") "\n"))
+#+macro: blocksamples (eval (mapconcat (lambda (f) (format "#+begin_%s\n%s block, produced by =#+begin_%s= / =#+end_%s=\n#+end_%s" f (s-upper-camel-case f) f f f)) (s-split-words "quote aside blurb center discussion error exercise information note question tip warning") "\n"))
 #+TITLE: Test Book
 #+author: Diego Zamboni
 #+email: diego@zzamboni.org
