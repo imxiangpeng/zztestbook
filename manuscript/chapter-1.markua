@@ -43,10 +43,8 @@ Error
 Aside
 {/aside}
 
-<div class="org-center">
-<p>
+{blurb, class: "center"}
 Center
-</p>
-</div>
+{/blurb}
 
 
