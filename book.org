@@ -24,7 +24,7 @@ In the following chapters you'll see some simple examples of how to format your 
 
 Blocks:
 
-#+begin_src emacs-lisp :results value raw :exports results
+#+begin_src emacs-lisp :results drawer :exports results
 (mapconcat (lambda (b) (format "#+begin_%s
 %s block, produced by:\\\\
 =#+begin_%s=\\\\
@@ -36,6 +36,7 @@ Blocks:
 #+end_src
 
 #+RESULTS:
+:results:
 #+begin_aside
 Aside block, produced by:\\
 =#+begin_aside=\\
@@ -114,6 +115,8 @@ Warning block, produced by:\\
 =...=\\
 =#+end_warning=\\
 #+end_warning
+:end:
+
 
 
 * Chapter 2
