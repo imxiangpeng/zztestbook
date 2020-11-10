@@ -1,5 +1,3 @@
-#+macro: blocksamples (eval (mapconcat (lambda (b) (format "#+begin_%s\n%s block, produced by:\n\n=#+begin_%s=\\\\\n=...=\\\\\n=#+end_%s=\\\\\n#+end_%s" b (upcase-initials b) b b b)) (sort (mapcar #'car org-leanpub-markua--block-definitions) #'string-lessp) "\n"))
-
 #+leanpub_book_write_subset: all
 
 #+TITLE: Test Book
@@ -26,7 +24,97 @@ In the following chapters you'll see some simple examples of how to format your 
 
 Blocks:
 
-{{{blocksamples}}}
+#+begin_src emacs-lisp :results value raw :exports results
+(mapconcat (lambda (b) (format "#+begin_%s
+%s block, produced by:\\\\
+=#+begin_%s=\\\\
+=...=\\\\
+=#+end_%s=\\\\
+#+end_%s" b (upcase-initials b) b b b))
+ (sort (mapcar #'car org-leanpub-markua--block-definitions) #'string-lessp)
+ "\n")
+#+end_src
+
+#+RESULTS:
+#+begin_aside
+Aside block, produced by:\\
+=#+begin_aside=\\
+=...=\\
+=#+end_aside=\\
+#+end_aside
+#+begin_blockquote
+Blockquote block, produced by:\\
+=#+begin_blockquote=\\
+=...=\\
+=#+end_blockquote=\\
+#+end_blockquote
+#+begin_blurb
+Blurb block, produced by:\\
+=#+begin_blurb=\\
+=...=\\
+=#+end_blurb=\\
+#+end_blurb
+#+begin_center
+Center block, produced by:\\
+=#+begin_center=\\
+=...=\\
+=#+end_center=\\
+#+end_center
+#+begin_discussion
+Discussion block, produced by:\\
+=#+begin_discussion=\\
+=...=\\
+=#+end_discussion=\\
+#+end_discussion
+#+begin_error
+Error block, produced by:\\
+=#+begin_error=\\
+=...=\\
+=#+end_error=\\
+#+end_error
+#+begin_exercise
+Exercise block, produced by:\\
+=#+begin_exercise=\\
+=...=\\
+=#+end_exercise=\\
+#+end_exercise
+#+begin_information
+Information block, produced by:\\
+=#+begin_information=\\
+=...=\\
+=#+end_information=\\
+#+end_information
+#+begin_note
+Note block, produced by:\\
+=#+begin_note=\\
+=...=\\
+=#+end_note=\\
+#+end_note
+#+begin_question
+Question block, produced by:\\
+=#+begin_question=\\
+=...=\\
+=#+end_question=\\
+#+end_question
+#+begin_quote
+Quote block, produced by:\\
+=#+begin_quote=\\
+=...=\\
+=#+end_quote=\\
+#+end_quote
+#+begin_tip
+Tip block, produced by:\\
+=#+begin_tip=\\
+=...=\\
+=#+end_tip=\\
+#+end_tip
+#+begin_warning
+Warning block, produced by:\\
+=#+begin_warning=\\
+=...=\\
+=#+end_warning=\\
+#+end_warning
+
 
 * Chapter 2
   :PROPERTIES:

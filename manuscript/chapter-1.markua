@@ -16,104 +16,175 @@ In the following chapters you'll see some simple examples of how to format your 
 Blocks: 
 
 {aside}
-Aside block, produced by: 
-
+Aside block, produced by:
 `#+begin_aside`
 `...`
 `#+end_aside`
 {/aside}
 
 {blockquote}
-Blockquote block, produced by: 
-
+Blockquote block, produced by:
 `#+begin_blockquote`
 `...`
 `#+end_blockquote`
 {/blockquote}
 
 {blurb}
-Blurb block, produced by: 
-
+Blurb block, produced by:
 `#+begin_blurb`
 `...`
 `#+end_blurb`
 {/blurb}
 
 {blurb, class: "center"}
-Center block, produced by: 
-
+Center block, produced by:
 `#+begin_center`
 `...`
 `#+end_center`
 {/blurb}
 
 {blurb, class: "discussion"}
-Discussion block, produced by: 
-
+Discussion block, produced by:
 `#+begin_discussion`
 `...`
 `#+end_discussion`
 {/blurb}
 
 {blurb, class: "error"}
-Error block, produced by: 
-
+Error block, produced by:
 `#+begin_error`
 `...`
 `#+end_error`
 {/blurb}
 
 {blurb, class: "exercise"}
-Exercise block, produced by: 
-
+Exercise block, produced by:
 `#+begin_exercise`
 `...`
 `#+end_exercise`
 {/blurb}
 
 {blurb, class: "information"}
-Information block, produced by: 
-
+Information block, produced by:
 `#+begin_information`
 `...`
 `#+end_information`
 {/blurb}
 
 {blurb, class: "information"}
-Note block, produced by: 
-
+Note block, produced by:
 `#+begin_note`
 `...`
 `#+end_note`
 {/blurb}
 
 {blurb, class: "question"}
-Question block, produced by: 
-
+Question block, produced by:
 `#+begin_question`
 `...`
 `#+end_question`
 {/blurb}
 
 {blockquote}
-Quote block, produced by: 
-
+Quote block, produced by:
 `#+begin_quote`
 `...`
 `#+end_quote`
 {/blockquote}
 
 {blurb, class: "tip"}
-Tip block, produced by: 
-
+Tip block, produced by:
 `#+begin_tip`
 `...`
 `#+end_tip`
 {/blurb}
 
 {blurb, class: "warning"}
-Warning block, produced by: 
+Warning block, produced by:
+`#+begin_warning`
+`...`
+`#+end_warning`
+{/blurb}
 
+{blockquote}
+Blockquote block, produced by:
+`#+begin_blockquote`
+`...`
+`#+end_blockquote`
+{/blockquote}
+
+{blurb}
+Blurb block, produced by:
+`#+begin_blurb`
+`...`
+`#+end_blurb`
+{/blurb}
+
+{blurb, class: "center"}
+Center block, produced by:
+`#+begin_center`
+`...`
+`#+end_center`
+{/blurb}
+
+{blurb, class: "discussion"}
+Discussion block, produced by:
+`#+begin_discussion`
+`...`
+`#+end_discussion`
+{/blurb}
+
+{blurb, class: "error"}
+Error block, produced by:
+`#+begin_error`
+`...`
+`#+end_error`
+{/blurb}
+
+{blurb, class: "exercise"}
+Exercise block, produced by:
+`#+begin_exercise`
+`...`
+`#+end_exercise`
+{/blurb}
+
+{blurb, class: "information"}
+Information block, produced by:
+`#+begin_information`
+`...`
+`#+end_information`
+{/blurb}
+
+{blurb, class: "information"}
+Note block, produced by:
+`#+begin_note`
+`...`
+`#+end_note`
+{/blurb}
+
+{blurb, class: "question"}
+Question block, produced by:
+`#+begin_question`
+`...`
+`#+end_question`
+{/blurb}
+
+{blockquote}
+Quote block, produced by:
+`#+begin_quote`
+`...`
+`#+end_quote`
+{/blockquote}
+
+{blurb, class: "tip"}
+Tip block, produced by:
+`#+begin_tip`
+`...`
+`#+end_tip`
+{/blurb}
+
+{blurb, class: "warning"}
+Warning block, produced by:
 `#+begin_warning`
 `...`
 `#+end_warning`
