@@ -23,6 +23,14 @@ Aside block, produced by:
 `#+end_aside`
 {/aside}
 
+{blockquote}
+Blockquote block, produced by: 
+
+`#+begin_blockquote`
+`...`
+`#+end_blockquote`
+{/blockquote}
+
 {blurb}
 Blurb block, produced by: 
 
@@ -71,7 +79,7 @@ Information block, produced by:
 `#+end_information`
 {/blurb}
 
-{blurb, class: "information", icon: "sticky-note"}
+{blurb, class: "information"}
 Note block, produced by: 
 
 `#+begin_note`
