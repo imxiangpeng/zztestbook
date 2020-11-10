@@ -9,7 +9,7 @@ To **bold**, use two asterisks.
 
 Here is an image with a caption: 
 
-{id: "marm-ang-tangie"}
+{width: "100%", id: "marm-ang-tangie"}
 ![](images/marm-and-tangie.jpg) 
 
 
