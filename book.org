@@ -31,7 +31,7 @@ Blocks:
 =...=\\\\
 =#+end_%s=\\\\
 #+end_%s" b (upcase-initials b) b b b))
- (sort (mapcar #'car org-leanpub-markua--block-definitions) #'string-lessp)
+ (sort (mapcar #'car org-leanpub-markua--block-defs) #'string-lessp)
  "\n")
 #+end_src
 
