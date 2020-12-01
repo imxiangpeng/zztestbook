@@ -7,103 +7,11 @@ You can download the manuscript folder containing the plain text files from whic
 
 Here is the download link for a zip file with the manuscript of this book: <https://github.com/leanpub/default-new-book-content/archive/master.zip>. 
 
-Please note you can find our manual here: <https://leanpub.com/help/manual>. 
+Please note you can find our [manual](https://leanpub.com/help/manual) here.[^1] 
 
 We also have a author Help Center here: <http://help.leanpub.com/author-help>. 
 
 In the following chapters you'll see some simple examples of how to format your writing and how to insert images. 
 
-Blocks: 
 
-{aside}
-Aside block, produced by:
-`#+begin_aside`
-`...`
-`#+end_aside`
-{/aside}
-
-{blockquote}
-Blockquote block, produced by:
-`#+begin_blockquote`
-`...`
-`#+end_blockquote`
-{/blockquote}
-
-{blurb}
-Blurb block, produced by:
-`#+begin_blurb`
-`...`
-`#+end_blurb`
-{/blurb}
-
-{blurb, class: "center"}
-Center block, produced by:
-`#+begin_center`
-`...`
-`#+end_center`
-{/blurb}
-
-{blurb, class: "discussion"}
-Discussion block, produced by:
-`#+begin_discussion`
-`...`
-`#+end_discussion`
-{/blurb}
-
-{blurb, class: "error"}
-Error block, produced by:
-`#+begin_error`
-`...`
-`#+end_error`
-{/blurb}
-
-{blurb, class: "exercise"}
-Exercise block, produced by:
-`#+begin_exercise`
-`...`
-`#+end_exercise`
-{/blurb}
-
-{blurb, class: "information"}
-Information block, produced by:
-`#+begin_information`
-`...`
-`#+end_information`
-{/blurb}
-
-{blurb, class: "information"}
-Note block, produced by:
-`#+begin_note`
-`...`
-`#+end_note`
-{/blurb}
-
-{blurb, class: "question"}
-Question block, produced by:
-`#+begin_question`
-`...`
-`#+end_question`
-{/blurb}
-
-{blockquote}
-Quote block, produced by:
-`#+begin_quote`
-`...`
-`#+end_quote`
-{/blockquote}
-
-{blurb, class: "tip"}
-Tip block, produced by:
-`#+begin_tip`
-`...`
-`#+end_tip`
-{/blurb}
-
-{blurb, class: "warning"}
-Warning block, produced by:
-`#+begin_warning`
-`...`
-`#+end_warning`
-{/blurb}
-
-
+[^1]: And now as a footnote: Please note you can find our [manual](https://leanpub.com/help/manual) here.
