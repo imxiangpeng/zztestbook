@@ -22,6 +22,16 @@ We also have a author Help Center here: [[http://help.leanpub.com/author-help]].
 
 In the following chapters you'll see some simple examples of how to format your writing and how to insert images.
 
+#+attr_leanpub: :icon github
+#+begin_blurb
+Blurb with a github icon
+#+end_blurb
+
+#+attr_leanpub: :icon github
+#+begin_center
+Centered blurb with a github icon
+#+end_center
+
 * Chapter 2
   :PROPERTIES:
   :CUSTOM_ID: chapter-2
