@@ -13,12 +13,12 @@ We also have a author Help Center here: <http://help.leanpub.com/author-help>.
 
 In the following chapters you'll see some simple examples of how to format your writing and how to insert images. 
 
-{blurb, icon: "leanpub"}
-Blurb with a Leanpub icon
+{blurb, icon: "github"}
+Blurb with a github icon
 {/blurb}
 
-{blurb, icon: "leanpub", class: "center"}
-Centered blurb with a Leanpub icon
+{blurb, icon: "github", class: "center"}
+Centered blurb with a github icon
 {/blurb}
 
 

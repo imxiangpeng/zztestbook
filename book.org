@@ -47,6 +47,7 @@ To *bold*, use two asterisks.
 
 Here is an image with a caption:
 
+#+caption: This is a test caption
 #+attr_leanpub: :width 100%
 #+name: marm-ang-tangie
 [[file:images/marm-and-tangie.jpg]]
