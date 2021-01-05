@@ -9,7 +9,5 @@ To **bold**, use two asterisks.
 
 Here is an image with a caption: 
 
-{width: "100%", id: "marm-ang-tangie", caption: "This is a test caption"}
-![This is a test caption](images/marm-and-tangie.jpg) 
-
-
+{width: "100%", id: "marm-ang-tangie", caption: "This is a test\ncaption"}
+![This is a test\ncaption](images/marm-and-tangie.jpg)
